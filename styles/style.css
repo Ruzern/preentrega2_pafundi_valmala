@@ -1,10 +1,114 @@
-img{
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap');
+
+body {
+    background-color: #C0EEF2;
+}
+
+header {
+    background-color: white;
+
+
+}
+
+
+header h1 {
+    color: #eefcff;
+
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181823;
+}
+
+a {
+    text-decoration: none;
+    text-emphasis-color: inherit;
+    text-decoration-color: inherit;
+    color: inherit;
+}
+
+.navlist {
+
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    color: #eefcff;
+
+}
+
+.tprinc {
+    text-align: center;
+}
+
+img {
+    margin-top: 5px;
     margin-bottom: 5px;
-}
-
-h4{
-}
-
-.proppre{
+    border-radius: 5px;
+    border: 2px solid #181823;
 
 }
+
+h4 {}
+
+
+
+.fondo {
+    background-color: white;
+}
+
+.contenedorprop {
+    background-color: #C0EEF2;
+}
+
+.infolist {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.infolistpadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.propprecio {
+    text-align: center;
+    font-size: medium;
+}
+
+footer {
+    background-color: #ffff;
+}
+
+footer div {
+    background-color: #181823;
+}
+
+
+.footerlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.contenedorinfo {
+    background-color: #181823;
+}
+
+.contenedorhab img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
